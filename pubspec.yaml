@@ -1,6 +1,5 @@
 name: youtube_downloader
-description: |
-  Um aplicativo desenvolvido em Flutter para baixar vídeos e músicas do YouTube. Com o uso das bibliotecas youtube_explode_dart para interagir com a API do YouTube, dio para realizar requisições HTTP, path_provider para acessar o sistema de arquivos e file_picker para permitir ao usuário escolher o local de salvamento dos arquivos baixados.
+description:  Um aplicativo desenvolvido em Flutter para baixar vídeos e músicas do YouTube. Com o uso das bibliotecas youtube_explode_dart para interagir com a API do YouTube, dio para realizar requisições HTTP, path_provider para acessar o sistema de arquivos e file_picker para permitir ao usuário escolher o local de salvamento dos arquivos baixados.
 #author: Danrlei Corrêa
 publish_to: 'none'
 
@@ -25,7 +24,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
 
@@ -33,7 +32,7 @@ flutter:
 
 flutter_launcher_icons:
   android: "launcher_icon"
-  image_path: "assets/icon/icon.png"
+  image_path: "assets/icon/icone_app_android.png"
   windows:
     generate: true
-    image_path: "assets/icon/icon.png"
+    image_path: "assets/icon/icone_app_android.png"
